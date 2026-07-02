@@ -1,5 +1,5 @@
-import ContactSection from '../components/ContactSection'
-import PageHero from '../components/PageHero'
+import ContactSection from "../components/ContactSection";
+import PageHero from "../components/PageHero";
 
 export default function ContactPage() {
   return (
@@ -12,5 +12,5 @@ export default function ContactPage() {
       />
       <ContactSection />
     </>
-  )
+  );
 }

@@ -1,13 +1,13 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Footer from './components/Footer'
-import Navbar from './components/Navbar'
-import ContactPage from './pages/ContactPage'
-import GalleryPage from './pages/GalleryPage'
-import HomePage from './pages/HomePage'
-import RoomDetailPage from './pages/RoomDetailPage'
-import RoomsPage from './pages/RoomsPage'
-import ServiceDetailPage from './pages/ServiceDetailPage'
-import ServicesPage from './pages/ServicesPage'
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
+import ContactPage from "./pages/ContactPage";
+import GalleryPage from "./pages/GalleryPage";
+import HomePage from "./pages/HomePage";
+import RoomDetailPage from "./pages/RoomDetailPage";
+import RoomsPage from "./pages/RoomsPage";
+import ServiceDetailPage from "./pages/ServiceDetailPage";
+import ServicesPage from "./pages/ServicesPage";
 
 function AppRoutes() {
   return (
@@ -24,7 +24,7 @@ function AppRoutes() {
       </Routes>
       <Footer />
     </main>
-  )
+  );
 }
 
 export default function App() {
@@ -32,5 +32,5 @@ export default function App() {
     <BrowserRouter>
       <AppRoutes />
     </BrowserRouter>
-  )
+  );
 }
